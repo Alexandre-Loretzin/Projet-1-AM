@@ -1,3 +1,41 @@
-.nav-item {
-text-align:center;
-}
+.form-control.mr-sm-2 {
+    width:400px;
+    }
+    #loupe {
+        border:none;
+        color: white;
+    }
+    #navbarDropdown.nav-link.dropdown-toggle {
+        position: relative;
+        left: 210px;
+        top: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .fas.fa-home.fa-5x {
+        position: relative;
+        top: 10px;
+        left: 50px;
+        color: white;
+    }
+    #navbarSupportedContent.collapse.navbar-collapse {
+        /* background-image: url("http://www.lesaviezvous.net/wp-content/uploads/2014/11/nuage.jpg"); */
+        background-color: #BA91F2;
+        background-repeat: no-repeat;
+    }
+    #navbarDropdown {
+        color: white;
+    }
+    h5 {
+        top:-5px;
+        position: relative;
+        left: 430px;
+        color: white;
+        font-weight: bold;
+    }
+    .fas.fa-plus {
+        position: relative;
+       left: 615px;
+       top: -38px;
+       color: white;
+    }
