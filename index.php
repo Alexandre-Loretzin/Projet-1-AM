@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Projet 1 </title>
   </head>
   <body>
@@ -22,15 +22,15 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <!-- Bouton maison -->
-              <a href="http://localhost/tests/Projet-1-AM/index.php"><i class="fas fa-home fa-5x"></i></a>
+              <a href="http://localhost/tests/Projet-1-AM/index.html"><i class="fas fa-home fa-5x"></i></a>
               <!-- fin bouton -->
             </li>
             <li class="nav-item">
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Catégories</a>
-                <h5>Ajouter un produit</h5><i class="fas fa-plus fa-1.5x"></i>
+                Catégories
+              </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
@@ -43,14 +43,14 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
-            <button class="btn btn-outline-info my-4 my-sm" id="loupe" type="submit"><i class="fas fa-search fa-2x" type="submit"></button></i>
+            <button class="btn btn-outline-success my-3 my-sm" type="submit">Recherche</button>
           </form>
         </div>
       </nav>
     <!-- Fin navbar -->
      <!-- Article 1 -->
      <div class="container">
-  
+        <?php include "include/produits.php";?>
      </div>
      <!-- Fin article 1 -->
 
