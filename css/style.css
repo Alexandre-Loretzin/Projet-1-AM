@@ -39,3 +39,12 @@
        top: -38px;
        color: white;
     }
+    .produit-container{
+        background-color: whitesmoke;
+    }
+    .image-produit{
+        border: solid 1px white;
+    }
+    .texte-produit{
+        border: solid 1px white;
+    }
